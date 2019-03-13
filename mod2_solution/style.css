@@ -1,0 +1,24 @@
+p {
+	background-color: beige;
+  	color: blue;
+  	font-size: 20px;
+  	width: 200px;
+}
+
+h1 {
+  	color: brown;
+  	text-align: center;
+}
+
+h2 {
+	background-color: green;
+	color: black;
+	text-align: right;
+}
+
+h3 {
+	background-color: teal;
+	color: white;
+	font-size: 36px;
+	text-align: right;
+}
