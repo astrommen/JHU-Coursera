@@ -1,24 +1,80 @@
-p {
-	background-color: beige;
-  	color: blue;
-  	font-size: 20px;
-  	width: 200px;
-}
 
+
+* {
+  box-sizing: border-box;
+}
 h1 {
-  	color: brown;
-  	text-align: center;
+	text-align: center;
+    margin-bottom: 15px;
 }
 
-h2 {
-	background-color: green;
-	color: black;
-	text-align: right;
-}
-
-h3 {
-	background-color: teal;
+span {
 	color: white;
-	font-size: 36px;
-	text-align: right;
+	text-align: center;
+	font-size: 125%;
+	border: 1px solid black;
+	border-width: 0px 0px 1px 1px;
+	width: auto;
+	padding: 0px 5px;
+	margin-left: 100%;
+	margin-bottom: 10px;
 }
+
+#Triassic {
+			background-color: green;
+			float: right;
+}
+
+#Jurassic {
+			background-color: red;
+			float: right;
+}
+
+#Cretaceous {
+			background-color: blue;
+			float: right;
+			}
+p {
+	border:none;
+	margin-right: 10px;
+	margin-left: 10px;
+  	color: black;
+}
+
+.box {
+  border: 1px solid black;
+  background-color: beige;
+  height: 160px;
+  margin: 0px 12px 24px;
+  font-family: Helvetica;
+}
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 100%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+}
+
+
+
+
+
